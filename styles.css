@@ -1,0 +1,103 @@
+/* Style for the header */
+/* Styles for the header */
+#main-header {
+    background-color: #28a745;
+    color: #fff;
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+    display: flex;
+; /* Allow content to wrap on smaller screens */
+  }
+  
+  /* Style for the title in the header */
+  #header-title {
+    font-size: 2rem;
+    width: 80%; /* Take full width on smaller screens */
+    margin-bottom: 10px; /* Add space between title and search input */
+    flex-direction: column;
+  }
+  
+  /* Style for the search input */
+  #filter {
+    width: 20%; /* Take full width on smaller screens */
+    padding: 0.5rem;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+    flex-direction: column;
+  }
+  
+  /* Style for the "Add Items" section */
+  #addForm {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+    margin-left: 70px;
+    
+  }
+ 
+  
+  /* Style for the item list */
+  .title {
+    font-size: 1.5rem;
+  }
+  
+  /* Style for list items */
+  .list-group-item {
+    width: 70%; /* Take full width on smaller screens */
+    padding: 4px 12px;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    border: 1px solid #dee2e6;
+    border-radius: 30px;
+    display: flex;
+    flex-wrap: wrap; /* Allow content to wrap on smaller screens */
+    box-shadow: 0 0 5px white;
+  }
+  
+  /* Style for the delete button */
+  .delete {
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+  }
+  
+  /* Style for the container */
+  .container {
+    border: 5px solid white;
+    box-shadow: 0 0 20px #fff;
+    padding: 20px 0px; /* Increase padding for better spacing */
+    padding-left: 70px;
+    margin: 118px auto; /* Reduce margin for better centering */
+    max-width: 700px; /* Limit container width for larger screens */
+  
+    color: white;
+  }
+  
+  /* Style for the body */
+  body {
+    background-color: black;
+    color: #fff;
+  }
+  .btn1 
+  {
+    color: #dee2e6;
+    background: #28a745;
+    font-weight: 700;
+    margin-left: 10px;
+  }
+  .btn1:hover 
+  {
+    box-shadow: 0 0 10px whitesmoke;
+    color: black;
+   
+  }
+  .btn:hover
+  {
+    box-shadow: 0 0 10px whitesmoke;
+    color: black;
+  }

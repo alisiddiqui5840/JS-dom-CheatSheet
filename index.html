@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Item Lister</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header id="main-header">
+    
+      
+        
+          <h1 id="header-title">To Do list</h1>
+       
+    
+          <input type="text" class="form-control" id="filter" placeholder="Search Items...">
+       
+     
+   
+  </header>
+  <div class="container">
+    <div id="main" class="card card-body">
+      <h2 class="title">Add Task</h2>
+      <form id="addForm" class="form-inline mb-3">
+        <input type="text" class="form-control mr-2" id="item">
+        <input type="submit" class="btn1 btn-dark" value="Submit">
+      </form>
+      <h2 class="title">Task To DO</h2>
+      <ul id="items" class="list-group">
+        <li class="list-group-item">GO to Gym <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+        <li class="list-group-item">Eat Dinner <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+        <li class="list-group-item">Sleep at 12 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+        <li class="list-group-item">Wake up at 7 <button class="btn btn-danger btn-sm float-right delete">X</button></li>
+      </ul>
+    </div>
+  </div>
+</body>
+<script src= "main.js" ></script>
+</html>
